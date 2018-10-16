@@ -2,19 +2,17 @@ body {
   background-image: url(./images/just-waves.png);
   background-repeat: repeat;
   font-family: "Arial", "Helvetica", sans-serif;
-	font-style: normal;
+  font-style: normal;
+  color: #ffcd86;
+  text-align: center;
 }
 
 h1{
-  color: #ffcd86;
   font-weight: bolder;
-  text-align: center;
 }
 
 h2{
-  color: #ffcd86;
   font-weight: bold;
-  text-align: center;
 }
 
 .container {
@@ -59,8 +57,6 @@ header {
 .title {
   font-size: xx-large;
   font-weight: bolder;
-  color: #ffcd86;
-  text-align: center;
 }
 
 .thumbnail {
@@ -76,7 +72,6 @@ header {
   padding: 1em;
   font-size: large;
   font-weight: bolder;
-  color: #ffcd86;
   text-align: left;
 }
 
