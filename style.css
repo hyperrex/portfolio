@@ -5,19 +5,94 @@ body {
 	font-style: normal;
 }
 
+h1{
+  color: #ffcd86;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h2{
+  color: #ffcd86;
+  font-weight: bold;
+  text-align: center;
+}
+
 header {
+  display: flex;
+  flex-direction: row;
   width: 100%;
   height: 10em;
-  background-color: #ffe3bb;
+  background-color: white;
   background-position: 95%;
   background-size: cover;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border-color: #ffc1bb;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   border-style: solid;
+  border-color: #ffcd86;
+  border-radius: 15px;
+  padding: 1em;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30em;
+  justify-content: space-between;
+}
+
+.proj {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: white;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-color: #ffcd86;
+  border-radius: 15px;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #ffcd86;
+  text-align: center;
+}
+
+.thumbnail {
+  width: 20em;
+  height:14em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  padding: 1em;
+  font-size: large;
+  font-weight: bolder;
+  color: #ffcd86;
+  text-align: left;
+}
+
+.portrait {
+  width: 6em;
+  height:8em;
+}
+
+.pikachu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title {
+  width: 85%;
+
 }
