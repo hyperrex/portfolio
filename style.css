@@ -17,14 +17,17 @@ h2{
   text-align: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 10em;
   background-color: white;
-  background-position: 95%;
-  background-size: cover;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   border-style: solid;
@@ -33,16 +36,11 @@ header {
   padding: 1em;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 #projects {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 30em;
+  height: auto;
   justify-content: space-between;
 }
 
@@ -66,8 +64,9 @@ header {
 }
 
 .thumbnail {
-  width: 20em;
-  height:14em;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -83,7 +82,7 @@ header {
 
 .portrait {
   width: 6em;
-  height:8em;
+  height: 8em;
 }
 
 .pikachu {
@@ -94,5 +93,4 @@ header {
 
 .main-title {
   width: 85%;
-
 }
