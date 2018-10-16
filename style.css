@@ -1,4 +1,23 @@
 body {
   background-image: url(./images/just-waves.png);
   background-repeat: repeat;
+  font-family: "Arial", "Helvetica", sans-serif;
+	font-style: normal;
+}
+
+header {
+  width: 100%;
+  height: 10em;
+  background-color: #ffe3bb;
+  background-position: 95%;
+  background-size: cover;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-color: #ffc1bb;
+  border-style: solid;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
 }
